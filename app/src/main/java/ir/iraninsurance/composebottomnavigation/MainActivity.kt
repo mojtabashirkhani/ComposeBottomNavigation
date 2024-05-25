@@ -10,6 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
+import ir.iraninsurance.composebottomnavigation.navigation.appNavHost
 import ir.iraninsurance.composebottomnavigation.ui.theme.ComposeBottomNavigationTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +24,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    val navController = rememberNavController()
+
+                    appNavHost(navController = navController)
                 }
             }
         }

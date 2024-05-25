@@ -7,6 +7,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import ir.iraninsurance.composebottomnavigation.ui.screens.homeScreen
 
 @Composable
 fun appNavHost(
@@ -23,12 +24,12 @@ fun appNavHost(
         ) {
 
         composable(BottomNavigationScreens.Home.route) {
-            /* homeScreen(
+             homeScreen(
                  navController
-             )*/
+             )
         }
 
-        composable(BottomNavigationScreens.Wallet.route) {
+        composable(BottomNavigationScreens.Setting.route) {
 
         }
         composable(BottomNavigationScreens.Profile.route) {

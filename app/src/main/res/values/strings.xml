@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ComposeBottomNavigation</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting\n</string>
+    <string name="profile">Profile</string>
+    <string name="messages">Messages\n</string>
+    <string name="support">Support\n</string>
+    <string name="download_apk">Download Apk</string>
+    <string name="logout">Logout\n</string>
 </resources>
