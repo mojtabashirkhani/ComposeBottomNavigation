@@ -8,6 +8,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import ir.iraninsurance.composebottomnavigation.ui.screens.homeScreen
+import ir.iraninsurance.composebottomnavigation.ui.screens.profileScreen
+import ir.iraninsurance.composebottomnavigation.ui.screens.settingScreen
 
 @Composable
 fun appNavHost(
@@ -20,21 +22,20 @@ fun appNavHost(
         modifier = modifier,
         navController = navController,
         startDestination = startDestination,
-
         ) {
 
         composable(BottomNavigationScreens.Home.route) {
-             homeScreen(
-                 navController
-             )
+             homeScreen(navController = navController)
         }
 
         composable(BottomNavigationScreens.Setting.route) {
-
+            settingScreen(navController = navController)
         }
+
         composable(BottomNavigationScreens.Profile.route) {
-
+            profileScreen(navController = navController)
         }
+
     }
 
 

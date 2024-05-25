@@ -32,8 +32,6 @@ fun bottomNavigationBar(navController: NavHostController) {
 
     NavigationBar(
         modifier = Modifier
-            .padding(32.dp)
-            .clip(RoundedCornerShape(15.dp, 15.dp, 15.dp, 15.dp))
         ,
         containerColor = Color.White
     ) {

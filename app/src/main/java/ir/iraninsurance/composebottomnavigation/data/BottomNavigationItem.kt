@@ -12,18 +12,18 @@ data class BottomNavigationItem(
         return listOf(
             BottomNavigationItem(
                 labelId = R.string.home,
-                iconId = R.drawable.ic_launcher_foreground,
+                iconId = R.drawable.ic_home,
                 route = BottomNavigationScreens.Home.route
             ),
             BottomNavigationItem(
                 labelId = R.string.setting,
-                iconId = R.drawable.ic_launcher_foreground,
+                iconId = R.drawable.ic_settings,
                 route = BottomNavigationScreens.Setting.route
             ),
 
             BottomNavigationItem(
                 labelId = R.string.profile,
-                iconId = R.drawable.ic_launcher_foreground,
+                iconId = R.drawable.ic_profile,
                 route = BottomNavigationScreens.Profile.route
             ),
 
