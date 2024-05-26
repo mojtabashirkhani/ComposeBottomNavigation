@@ -7,4 +7,4 @@
 ### Screenshots 
 
 #### Home Screen
-![image](1B8stzAklmP80vNxQ3eUyziYEs6aH5ofb)
+![image](https://drive.google.com/uc?export=view&id=1B8stzAklmP80vNxQ3eUyziYEs6aH5ofb)
